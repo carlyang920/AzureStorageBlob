@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <Authors>Carl Yang</Authors>
+        <Company></Company>
+        <Description>AzureStorageBlob</Description>
+        <Copyright>Copyright 2021</Copyright>
+        <PackageLicenseUrl></PackageLicenseUrl>
+        <PackageProjectUrl></PackageProjectUrl>
+        <PackageIconUrl></PackageIconUrl>
+        <RepositoryUrl></RepositoryUrl>
+        <RepositoryType />
+        <PackageTags>Azure Storage, Blob Storage, .NET Standard</PackageTags>
+        <PackageReleaseNotes>Making new version of Azure Blob Storage with .Net Standard 2.0</PackageReleaseNotes>
+        <LangVersion>8</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Azure.Storage.Blobs" Version="12.8.4" />
+      <PackageReference Include="Azure.Storage.Common" Version="12.7.3" />
+    </ItemGroup>
+
+</Project>
